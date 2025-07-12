@@ -3,7 +3,7 @@ import React from 'react'
 
 // Importa o arquivo de estilos CSS
 import './App.css'
-// Importando components
+// Importando componentes
 import Mensagem from './components/Mensagem'
 import Cabecalho from './components/Cabecalho'
 import Conteudo from './components/Conteudo'
@@ -18,7 +18,6 @@ function App() {
   const anoNascimento = 2005
 
   return (
-    // JSX retorna um único elemento raiz
     <div>
       {/* Título da página, exercício 1) */}
       <h1>Meu primeiro app React</h1>
@@ -28,38 +27,38 @@ function App() {
         <h1>Olá, meu nome é {nome} e nasci em {anoNascimento}.</h1>
         <hr></hr>
       </div>
-      {/* exercício 3) */}
+      {/* Utiliza o componente, exercício 3) */}
       <div>
         <Mensagem />
         <hr></hr>
       </div>
-      {/* exercício 4) */}
+      {/* Renderiza 3 componentes - exercício 4) */}
       <div>
         <Cabecalho />
         <Conteudo />
         <Rodape />
         <hr></hr>
       </div>
-      {/* exercício 5) */}
+      {/* cria um botão que chama um alert ao ser clicado - exercício 5) */}
       <div>
         <button onClick={() => alert("Você clicou no botão!")}>
           Mostrar Alerta
         </button>
         <hr></hr>
       </div>
-      {/* exercício 6) */}
+      {/* cria um botão que chama uma função ao ser clicado - exercício 6) */}
       <div>
         <button onClick={executarAcao}>
           Executar Ação
         </button>
         <hr></hr>
       </div>
-      {/* exercício 7) */}
+      {/* chama uma função que retorna um texto - exercício 7) */}
       <div>
         {renderizarMensagem()}
         <hr></hr>
       </div>
-      {/* exercício 8) */}
+      {/* renderiza 3 componentes - exercício 8) */}
       <div>
         <Topo />
         <Meio />
@@ -79,4 +78,4 @@ function renderizarMensagem() {
   return <p>Texto gerado por uma função de renderização.</p>
 }
 
-export default App // Exporta o componente
+export default App // Exporta o componente principal
