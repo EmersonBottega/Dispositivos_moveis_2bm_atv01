@@ -9,9 +9,10 @@ Este projeto foi criado com Vite, React e TypeScript para praticar os fundamento
 2. Uso de variáveis em JSX
 3. Criação e reutilização de componentes
 4. Hierarquia de componentes
-5. Manipulação de eventos com funções inline e externas
-6. Renderização via funções
-7. Layout com múltiplos componentes
+5. Manipulação de eventos com funções inline
+6. Manipulação de eventos com funções externas
+7. Renderização via funções
+8. Layout com múltiplos componentes
 
 ## Como rodar o projeto
 
